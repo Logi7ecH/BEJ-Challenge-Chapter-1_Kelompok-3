@@ -155,13 +155,37 @@ public class Main {
         }
     }
 
+   //Method luas lingkaran dan luas segitiga dikerjakan oleh Ayu Nurqanita
     private static void luasLingkaran() {
 
+        Scanner scan = new Scanner(System.in);
+        judulProgram("Lingkaran");
 
+        System.out.println("Masukkan Jari-Jari: ");
+        int jarijari = scan.nextInt();
+
+        System.out.println("processing...");
+
+        double luasLingkaran = 3.14 * jarijari;
+        System.out.println("Laus Lingkaran adalah: "+luasLingkaran);
+        akhirProgram();
     }
 
     private static void luasSegitiga() {
 
+        Scanner scan = new Scanner(System.in);
+        judulProgram("Segitiga");
+
+        System.out.println("Masukkan Alas: ");
+        int alas = scan.nextInt();
+        System.out.println("Masukkan Tinggi: ");
+        int tinggi = scan.nextInt();
+
+        System.out.println("processing...");
+
+        int luasSegitiga = (alas * tinggi) /2;
+        System.out.println("Luas segitiga adalah "+luasSegitiga);
+        akhirProgram();
     }
 
     private static void luasPersegiPanjang() {
