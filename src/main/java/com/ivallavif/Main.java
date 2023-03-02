@@ -188,13 +188,34 @@ public class Main {
         akhirProgram();
     }
 
+    // method luasPersegiPanjang dan luasPersegi dibuat oleh Fathur Rizqy
     private static void luasPersegiPanjang() {
-
+        Scanner scan = new Scanner(System.in);
+        judulProgram("Persegi Panjang");
+        System.out.print("Masukan Panjang : " );
+        int masukanPanjang = scan.nextInt();
+        System.out.print("Masukan Lebar : " );
+        int masukanLebar = scan.nextInt();
+        System.out.println("");
+        System.out.println("Processing...");
+        int resultPersegiPanjang = masukanPanjang * masukanLebar;
+        System.out.println("Luas dari persegi panjang adalah " + resultPersegiPanjang);
+        akhirProgram();
     }
 
     private static void luasPersegi() {
+        Scanner scan = new Scanner(System.in);
+        judulProgram("Persegi");
+        System.out.print("Masukan Sisi : " );
+        int masukanSisi = scan.nextInt();
 
+        System.out.println("");
 
+        System.out.println("Processing...");
+
+        int resultPersegi = masukanSisi * masukanSisi;
+        System.out.println("Luas dari Persegi adalah " + resultPersegi);
+        akhirProgram();
     }
 
 
