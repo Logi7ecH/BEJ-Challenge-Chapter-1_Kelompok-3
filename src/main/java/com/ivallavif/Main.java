@@ -108,7 +108,7 @@ public class Main {
     private static void volumeKubus(){
         // Input
         Scanner input = new Scanner(System.in);
-        JudulProgram("Kubus");
+        judulProgram("Kubus");
         
         // Perhitungan
         System.out.print("Masukkan panjang sisi kubus: ");
@@ -124,7 +124,7 @@ public class Main {
     private static void volumeBalok() {
         // Input
         Scanner input = new Scanner(System.in);
-        JudulProgram("Balok");
+        judulProgram("Balok");
         
         // Perhitungan
         System.out.print("Masukkan panjang balok: ");

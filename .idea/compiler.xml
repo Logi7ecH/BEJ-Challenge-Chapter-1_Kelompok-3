@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Tugas" />
+        <module name="BEJ-Challenge-Chapter-1_Kelompok-3" />
       </profile>
     </annotationProcessing>
   </component>
